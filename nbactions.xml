@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+        <action>
+            <actionName>CUSTOM-WildflyDeploy</actionName>
+            <displayName>WildflyDeploy</displayName>
+            <goals>
+                <goal>wildfly:deploy</goal>
+            </goals>
+        </action>
+        <action>
+            <actionName>CUSTOM-WildflyUndeploy</actionName>
+            <displayName>WildflyUndeploy</displayName>
+            <goals>
+                <goal>wildfly:undeploy</goal>
+            </goals>
+        </action>
+    </actions>
